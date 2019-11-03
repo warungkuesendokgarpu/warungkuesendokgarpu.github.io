@@ -1,0 +1,410 @@
+/*Start Body*/
+body {
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/*End Body*/
+
+/*Start Debug*/
+.bg-yellow {
+    background-color: yellow;
+}
+.bg-khaki {
+    background-color: khaki;
+}
+.bg-lemonchiffon {
+    background-color: lemonchiffon;
+}
+/*End Debug*/
+
+/*Start Container*/
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/*End Container*/
+
+.gambar-sejajar {
+    display: inline-block;
+}
+
+.gambar-kiri{
+    float: left;
+    width: 49.5%;
+}
+
+.gambar-kanan {
+    float: right;
+    width: 49.5%;
+}
+
+/*Start Logo*/
+.logo {
+    text-align: center;
+}
+/*End Logo*/
+
+/*Start Menu Primer*/
+.menu-primer ul {
+    background-color: black;
+    border-radius: 4px;
+    box-shadow:
+         0 3px 5px -1px; rgba(0,0,0,.2),
+         0 6px 10px 0; rgba (0,0,0,.14),
+         0 1PX 18PX 0; RGBA (0,0,0,.12);
+}
+
+.menu-primer li {
+    border-right: 1px solid; #d1d5da;
+    display: inline-block;
+    margin: 0 -4px;
+}
+
+.menu-primer li a {
+    color: white; 
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;    
+}
+
+.menu-primer a:hover {
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+/*End Menu Primer*/
+
+/*Start Anchor / Hyperlink*/
+a:link,
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color: black;
+    text-decoration: underline;
+}
+/*End Anchor / Hyperlink*/
+
+/*Start Heading*/
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1{
+    font-size: 28px;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 18px;
+}
+h4{
+    font-size: 16px;
+}
+h5{
+    font-size: 14px;
+}
+H6{
+    font-size: 13px;
+}
+/*End Heading*/
+
+/*Start Jumbotron*/
+.jumbotron {
+    background-color: orange;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+/*End Jumbotron*/
+
+/*Start Main*/
+.main-home-one {
+    float: left;
+    width: 49.5%;
+}
+
+.main-home-two {
+    float: right;
+    width: 49.5%;
+}
+
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 200px;
+}
+/*End Main*/
+
+/*Start Box*/
+.box-heading {
+    background-color: orange;
+    border: 1px solid;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.box-isi {
+    background-color: white;
+    border: 1px solid;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/*End Box*/
+
+/*Start Testimonial*/
+.testimonial {
+    border-left:4px solid gray;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+/*End Testimonial*/
+
+/*Start Menu Sekunder*/
+.menu-sekunder {
+    background-color: orange;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.menu-sekunder ul {
+    padding: 0;
+}
+.menu-sekunder li {
+    list-style: disc;
+}
+
+.menu-sekunder li a
+.menu-sekunder p {
+    font-size: 15px;
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+}
+.menu-sekunder-one {
+    width: 40%;
+}
+.menu-sekunder-two {
+    width: 30%;
+}
+.menu-sekunder-three {
+    width: 30%;
+}
+.menu-sekunder-three li img {
+    vertical-align: middle;
+}
+/*End Menu Sekunder*/
+
+/*Start Main*/
+.main-home-one {
+    float: left;
+    width: 49.5%;
+}
+
+.main-home-two {
+    float: right;
+    width: 49.5%;
+}
+
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 200px;
+}
+/*End Main*/
+
+/*Start Box*/
+.box-heading {
+    background-color: orange;
+    border: 1px solid;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.box-isi {
+    background-color: lemonchiffon;;
+    border: 1px solid;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/*End Box*/
+
+/*Start Copyright*/
+.copyright p {
+    font-size: 15px;
+}
+/*End Copyright*/
+
+
+/* Start Foto Produk */
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,700;);
+.snip1585 {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  margin: 10px;
+  max-width: 315px;
+  min-width: 230px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.snip1585 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1585:before,
+.snip1585:after {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-top: 50px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 50px solid rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  z-index: 1;
+  opacity: 0;
+}
+
+.snip1585:before {
+  -webkit-transform: scaleY(2);
+  transform: scaleY(2);
+}
+
+.snip1585:after {
+  -webkit-transform: scaleY(2);
+  transform: scaleY(2);
+}
+
+.snip1585 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.snip1585 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.1em;
+  opacity: 0;
+  z-index: 2;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.snip1585 h3 {
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.snip1585 h3 span {
+  display: block;
+  font-weight: 700;
+}
+
+.snip1585 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.snip1585:hover > img,
+.snip1585.hover > img {
+  opacity: 0.7;
+}
+
+.snip1585:hover:before,
+.snip1585.hover:before,
+.snip1585:hover:after,
+.snip1585.hover:after {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+
+.snip1585:hover figcaption,
+.snip1585.hover figcaption {
+  opacity: 1;
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+/* End Foto Produk */
+
+
+}

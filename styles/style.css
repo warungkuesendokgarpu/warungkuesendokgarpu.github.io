@@ -1,5 +1,6 @@
 /*Start Body*/
 body {
+    background-color: whitesmoke;
     color: black;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -259,7 +260,7 @@ H6{
 
 /*Start Box*/
 .box-heading {
-    background-color: orange;
+    background-color: pink;;
     border: 1px solid;
     border-radius: 3px 3px 0 0;
     margin: 0;
@@ -272,7 +273,7 @@ H6{
 }
 
 .box-isi {
-    background-color: lemonchiffon;;
+    background-color: peachpuff;
     border: 1px solid;
     border-top: 0;
     margin: 0;

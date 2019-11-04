@@ -261,7 +261,7 @@ H6{
 /*Start Box*/
 .box-heading {
     background-color: pink;;
-    border: 1px solid;
+    border: 1px solid pink;
     border-radius: 3px 3px 0 0;
     margin: 0;
     padding: 10px 20px;
@@ -274,7 +274,7 @@ H6{
 
 .box-isi {
     background-color: peachpuff;
-    border: 1px solid;
+    border: 1px solid peachpuff;
     border-top: 0;
     margin: 0;
     padding: 10px 20px;
